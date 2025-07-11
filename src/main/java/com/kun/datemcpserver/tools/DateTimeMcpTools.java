@@ -12,7 +12,7 @@ import java.util.Map;
  * 提供给大模型调用的时间获取和计算功能
  */
 @Component
-public class DateTimeMcpTools {
+public class DateTimeMcpTools implements McpTool {
 
     private final DateTimeService dateTimeService;
 
